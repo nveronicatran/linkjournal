@@ -1340,12 +1340,12 @@
       "siteMetadata": {},
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-02-17T10:10:14.247Z",
+      "buildTime": "2020-02-17T10:28:05.051Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f4b03ec23e3d4b508c1f976d897c478d",
+        "contentDigest": "12538819c531a7dde38e7369a6110bba",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1355,7 +1355,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1dc4472fb2cf14a034498d870086703c",
+        "contentDigest": "8b64639440b3e4da93eadbbdbc5b79df",
         "type": "Directory",
         "description": "Directory \"src/images/team\"",
         "owner": "gatsby-source-filesystem"
@@ -1367,7 +1367,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2020-01-27T18:46:24.000Z",
-      "accessTime": "2020-02-17T10:10:21.179Z",
+      "accessTime": "2020-02-17T10:28:09.914Z",
       "changeTime": "2020-02-11T16:14:12.282Z",
       "birthTime": "2020-01-27T18:46:24.000Z",
       "root": "/",
@@ -1385,11 +1385,11 @@
       "blksize": 4096,
       "ino": 12903007497,
       "blocks": 0,
-      "atimeMs": 1581934221178.6482,
+      "atimeMs": 1581935289914.3726,
       "mtimeMs": 1580150784000,
       "ctimeMs": 1581437652281.5566,
       "birthtimeMs": 1580150784000,
-      "atime": "2020-02-17T10:10:21.179Z",
+      "atime": "2020-02-17T10:28:09.914Z",
       "mtime": "2020-01-27T18:46:24.000Z",
       "ctime": "2020-02-11T16:14:12.282Z",
       "birthtime": "2020-01-27T18:46:24.000Z"
@@ -1741,7 +1741,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c8bab3ec230d90a958cbd019009e4ebe",
+        "contentDigest": "8f4e702ae800c9f8f7a639cbe0bcc978",
         "type": "Directory",
         "description": "Directory \"src/images/art\"",
         "owner": "gatsby-source-filesystem"
@@ -1753,7 +1753,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2020-01-27T18:46:24.000Z",
-      "accessTime": "2020-02-17T10:10:21.215Z",
+      "accessTime": "2020-02-17T10:28:09.938Z",
       "changeTime": "2020-02-11T16:14:12.265Z",
       "birthTime": "2020-01-27T18:46:24.000Z",
       "root": "/",
@@ -1771,11 +1771,11 @@
       "blksize": 4096,
       "ino": 12903007482,
       "blocks": 0,
-      "atimeMs": 1581934221215.2375,
+      "atimeMs": 1581935289937.9104,
       "mtimeMs": 1580150784000,
       "ctimeMs": 1581437652265.4854,
       "birthtimeMs": 1580150784000,
-      "atime": "2020-02-17T10:10:21.215Z",
+      "atime": "2020-02-17T10:28:09.938Z",
       "mtime": "2020-01-27T18:46:24.000Z",
       "ctime": "2020-02-11T16:14:12.265Z",
       "birthtime": "2020-01-27T18:46:24.000Z"
