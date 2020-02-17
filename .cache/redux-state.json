@@ -1,0 +1,2422 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fe94788d29259fbc8de3943320c9b8d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "455417b26dd12fd5c2806e01dbd1c3a8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bff03cb7535c97a828efdbc00a2dd18c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "20497cde2db7b10f865ceb526012d926",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8c791446ff32cb4885439f80da675f96",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "014e0efcf36b048511f95cc45be20e77",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7e1de6d3c10cedc33a884f8c48fc1072",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "bff20f11-829c-5f79-ace8-53dc7c680bc6": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-svgr",
+      "id": "bff20f11-829c-5f79-ace8-53dc7c680bc6",
+      "name": "gatsby-plugin-svgr",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "svgoConfig": {
+          "plugins": {
+            "removeViewBox": false
+          }
+        }
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-svgr",
+      "packageJson": {
+        "name": "gatsby-plugin-svgr",
+        "description": "Svgr plugin for gatsby",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "svgr"
+        ],
+        "author": {
+          "name": "Ardamis Yeshak",
+          "email": "arde987@gmail.com",
+          "url": "https://github.com/zabute"
+        },
+        "license": "MIT",
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "@svgr/webpack",
+            "version": "^2.0.0"
+          }
+        ],
+        "dependencies": [],
+        "devDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4db137c9986b49719e46b683c07ae929",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.32"
+          },
+          {
+            "name": "styled-components",
+            "version": ">=2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "410b80cf465b46414db6d97378347d0c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4aff98dc-83ec-53b4-942d-edcefb790955": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-source-filesystem",
+      "id": "4aff98dc-83ec-53b4-942d-edcefb790955",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "team",
+        "path": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e0aaafff9f669142c2dcfa256e566d4d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "605b30e9-85d4-5c60-9de4-a0ee8de84661": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-source-filesystem",
+      "id": "605b30e9-85d4-5c60-9de4-a0ee8de84661",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "art",
+        "path": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "62f89aacbc58e0b66276a3a3f08e9f34",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.9",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7dc0e956d75d1939163052b7646b411a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.16",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.16",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "548c1378d34bfadeb4cd3843f8d965b1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1a759e79-dea8-542c-856f-2cf333f5ccf9": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-manifest",
+      "id": "1a759e79-dea8-542c-856f-2cf333f5ccf9",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "LINK",
+        "short_name": "LINK",
+        "start_url": "/",
+        "background_color": "#000000",
+        "theme_color": "#000000",
+        "display": "minimal-ui",
+        "icon": "static/favicon.svg"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7194d2cd539fdda6dd1ab7749d4a81f0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f3a06c5c-e690-5b9b-9628-535600eb0e3d": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-google-fonts",
+      "id": "f3a06c5c-e690-5b9b-9628-535600eb0e3d",
+      "name": "gatsby-plugin-google-fonts",
+      "version": "0.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          "average",
+          "prata:400,700"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "version": "0.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gastby-plugin",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "author": "Didier Franc <dev@didierfranc.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "feacb8d6022ed16acf7e510f6d55fa17",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "bc998af6-da3f-5814-bc10-07f1eae22f65": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-alias-imports",
+      "id": "bc998af6-da3f-5814-bc10-07f1eae22f65",
+      "name": "gatsby-plugin-alias-imports",
+      "version": "1.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "alias": {
+          "@components": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/components",
+          "@common": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/components/common",
+          "@images": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images",
+          "@sections": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/components/sections",
+          "@styles": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/styles",
+          "@static": "/Users/Veronica/Google Drive/3_dev/linkjournal/static"
+        }
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-alias-imports",
+      "packageJson": {
+        "name": "gatsby-plugin-alias-imports",
+        "description": "Gatsby plugin for aliasing path locations when importing files.",
+        "version": "1.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "alias",
+          "import"
+        ],
+        "author": "Rowan Freeman <r@rowanfreeman.id.au>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.2.3"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.2.2"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3e3a54e6b4c970deb457fee8a1120379",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "89cc25ddd6230ad16450018f6af48f17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal",
+      "packageJson": {
+        "name": "gatsby-absurd",
+        "description": "An absurd starter for Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Ajay NS <ajay.ns@outlook.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@svgr/webpack",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.76"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-alias-imports",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "^0.0.4"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.7"
+          },
+          {
+            "name": "gatsby-plugin-svgr",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-anchor-link-smooth-scroll",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "react-collapsible",
+            "version": "^2.6.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-scrollspy",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.15.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b51ba82430e78ff4deefecb2b585236b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec": {
+      "resolve": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-page-creator",
+      "id": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Veronica/Google Drive/3_dev/linkjournal/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2fa0e72edbdf9ba490e83c0f741a59d4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-02-17T10:10:14.247Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f4b03ec23e3d4b508c1f976d897c478d",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "97f940ac-0513-5745-98e2-d8d150beaadd": {
+      "id": "97f940ac-0513-5745-98e2-d8d150beaadd",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1dc4472fb2cf14a034498d870086703c",
+        "type": "Directory",
+        "description": "Directory \"src/images/team\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "team",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team",
+      "relativePath": "",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:10:21.179Z",
+      "changeTime": "2020-02-11T16:14:12.282Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images",
+      "base": "team",
+      "ext": "",
+      "name": "team",
+      "relativeDirectory": "..",
+      "dev": 16777223,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007497,
+      "blocks": 0,
+      "atimeMs": 1581934221178.6482,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652281.5566,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:10:21.179Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.282Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "acdf2100-51c5-53d8-8061-983b5bdd7c1e": {
+      "id": "acdf2100-51c5-53d8-8061-983b5bdd7c1e",
+      "children": [
+        "191ddff0-d4d2-5457-b480-117daed7d0d3"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "52db0dc6c14166cf948f00a4c0874069",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/team/martin.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "team",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team/martin.jpg",
+      "relativePath": "martin.jpg",
+      "extension": "jpg",
+      "size": 61255,
+      "prettySize": "61.3 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.697Z",
+      "changeTime": "2020-02-11T16:14:12.274Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team",
+      "base": "martin.jpg",
+      "ext": ".jpg",
+      "name": "martin",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007498,
+      "blocks": 120,
+      "atimeMs": 1581934097696.5405,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652274.227,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.697Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.274Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "d099f6ed-1e15-5322-958a-b1a7eb0d1f8b": {
+      "id": "d099f6ed-1e15-5322-958a-b1a7eb0d1f8b",
+      "children": [
+        "d02b2e99-09d7-5349-a32a-56e19c1e43c8"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2cad51bbb7020b9f048390a33180036a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/team/ashlyn.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "team",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team/ashlyn.jpg",
+      "relativePath": "ashlyn.jpg",
+      "extension": "jpg",
+      "size": 44033,
+      "prettySize": "44 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.697Z",
+      "changeTime": "2020-02-11T16:14:12.279Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team",
+      "base": "ashlyn.jpg",
+      "ext": ".jpg",
+      "name": "ashlyn",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007500,
+      "blocks": 88,
+      "atimeMs": 1581934097696.5461,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652278.7134,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.697Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.279Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "5d7897db-ea4a-5ad2-8298-38b96d4e64a3": {
+      "id": "5d7897db-ea4a-5ad2-8298-38b96d4e64a3",
+      "children": [
+        "1670c0cf-9316-58cc-a2c0-378a3ab1ef81"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "68e2768f39e91caf67bf415d76d0ac2d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/team/josh.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "team",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team/josh.jpg",
+      "relativePath": "josh.jpg",
+      "extension": "jpg",
+      "size": 40163,
+      "prettySize": "40.2 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.697Z",
+      "changeTime": "2020-02-11T16:14:12.281Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team",
+      "base": "josh.jpg",
+      "ext": ".jpg",
+      "name": "josh",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007503,
+      "blocks": 80,
+      "atimeMs": 1581934097696.5537,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652281.4487,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.697Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.281Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "191ddff0-d4d2-5457-b480-117daed7d0d3": {
+      "id": "191ddff0-d4d2-5457-b480-117daed7d0d3",
+      "children": [],
+      "parent": "acdf2100-51c5-53d8-8061-983b5bdd7c1e",
+      "internal": {
+        "contentDigest": "52db0dc6c14166cf948f00a4c0874069",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d02b2e99-09d7-5349-a32a-56e19c1e43c8": {
+      "id": "d02b2e99-09d7-5349-a32a-56e19c1e43c8",
+      "children": [],
+      "parent": "d099f6ed-1e15-5322-958a-b1a7eb0d1f8b",
+      "internal": {
+        "contentDigest": "2cad51bbb7020b9f048390a33180036a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1670c0cf-9316-58cc-a2c0-378a3ab1ef81": {
+      "id": "1670c0cf-9316-58cc-a2c0-378a3ab1ef81",
+      "children": [],
+      "parent": "5d7897db-ea4a-5ad2-8298-38b96d4e64a3",
+      "internal": {
+        "contentDigest": "68e2768f39e91caf67bf415d76d0ac2d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "484b7d7b-20b6-5b7e-a430-516e29d6b548": {
+      "id": "484b7d7b-20b6-5b7e-a430-516e29d6b548",
+      "children": [
+        "72fec632-96ee-58f5-9b36-96969fadbabd"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8d613c2ef1cffe0fa9f34e010abe2c71",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/team/todd.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "team",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team/todd.jpg",
+      "relativePath": "todd.jpg",
+      "extension": "jpg",
+      "size": 86057,
+      "prettySize": "86.1 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.697Z",
+      "changeTime": "2020-02-11T16:14:12.280Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team",
+      "base": "todd.jpg",
+      "ext": ".jpg",
+      "name": "todd",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007502,
+      "blocks": 176,
+      "atimeMs": 1581934097696.551,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652280.4956,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.697Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.280Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "d399c058-c73d-5f81-8e3b-bc2fbfb97d75": {
+      "id": "d399c058-c73d-5f81-8e3b-bc2fbfb97d75",
+      "children": [
+        "eef04f4e-eef7-53a5-8a85-ed36a1141a80"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8e3b61a99682d99f75d325c96072f876",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/team/rose.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "team",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team/rose.jpg",
+      "relativePath": "rose.jpg",
+      "extension": "jpg",
+      "size": 93859,
+      "prettySize": "93.9 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.697Z",
+      "changeTime": "2020-02-11T16:14:12.276Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team",
+      "base": "rose.jpg",
+      "ext": ".jpg",
+      "name": "rose",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007499,
+      "blocks": 184,
+      "atimeMs": 1581934097696.5435,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652275.6145,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.697Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.276Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "72fec632-96ee-58f5-9b36-96969fadbabd": {
+      "id": "72fec632-96ee-58f5-9b36-96969fadbabd",
+      "children": [],
+      "parent": "484b7d7b-20b6-5b7e-a430-516e29d6b548",
+      "internal": {
+        "contentDigest": "8d613c2ef1cffe0fa9f34e010abe2c71",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "eef04f4e-eef7-53a5-8a85-ed36a1141a80": {
+      "id": "eef04f4e-eef7-53a5-8a85-ed36a1141a80",
+      "children": [],
+      "parent": "d399c058-c73d-5f81-8e3b-bc2fbfb97d75",
+      "internal": {
+        "contentDigest": "8e3b61a99682d99f75d325c96072f876",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "cfb8e4da-af7d-556a-a977-989096396033": {
+      "id": "cfb8e4da-af7d-556a-a977-989096396033",
+      "children": [
+        "c34f7338-4f7f-56f2-8e07-fe54ac6e296d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f7216587db1b65979e42d36f83007676",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/team/lisa.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "team",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team/lisa.jpg",
+      "relativePath": "lisa.jpg",
+      "extension": "jpg",
+      "size": 178484,
+      "prettySize": "178 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.697Z",
+      "changeTime": "2020-02-11T16:14:12.280Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/team",
+      "base": "lisa.jpg",
+      "ext": ".jpg",
+      "name": "lisa",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007501,
+      "blocks": 352,
+      "atimeMs": 1581934097696.5486,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652279.5176,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.697Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.280Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "c34f7338-4f7f-56f2-8e07-fe54ac6e296d": {
+      "id": "c34f7338-4f7f-56f2-8e07-fe54ac6e296d",
+      "children": [],
+      "parent": "cfb8e4da-af7d-556a-a977-989096396033",
+      "internal": {
+        "contentDigest": "f7216587db1b65979e42d36f83007676",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "90607fd0-8f9a-552a-9065-077d068b183d": {
+      "id": "90607fd0-8f9a-552a-9065-077d068b183d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c8bab3ec230d90a958cbd019009e4ebe",
+        "type": "Directory",
+        "description": "Directory \"src/images/art\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "art",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art",
+      "relativePath": "",
+      "extension": "",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:10:21.215Z",
+      "changeTime": "2020-02-11T16:14:12.265Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images",
+      "base": "art",
+      "ext": "",
+      "name": "art",
+      "relativeDirectory": "..",
+      "dev": 16777223,
+      "mode": 16877,
+      "nlink": 9,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007482,
+      "blocks": 0,
+      "atimeMs": 1581934221215.2375,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652265.4854,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:10:21.215Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.265Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "793f1177-1043-51cd-b25c-15aff5078193": {
+      "id": "793f1177-1043-51cd-b25c-15aff5078193",
+      "children": [
+        "0f56adbf-11ad-572e-9ab5-a2c5a6069905"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "55531a9110c758d00ec76ddc5f5f20ce",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/art/learn_yourself.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "art",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art/learn_yourself.png",
+      "relativePath": "learn_yourself.png",
+      "extension": "png",
+      "size": 344333,
+      "prettySize": "344 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.696Z",
+      "changeTime": "2020-02-11T16:14:12.260Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art",
+      "base": "learn_yourself.png",
+      "ext": ".png",
+      "name": "learn_yourself",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007484,
+      "blocks": 680,
+      "atimeMs": 1581934097696.45,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652259.7441,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.696Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.260Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "b3552c91-b31f-5f34-93bc-6d4f8660a974": {
+      "id": "b3552c91-b31f-5f34-93bc-6d4f8660a974",
+      "children": [
+        "d2879052-0154-5d68-a96d-ab5be0978c33"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "963c089ebba6a1cc2b0d100a1e475b38",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/art/ideas.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "art",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art/ideas.png",
+      "relativePath": "ideas.png",
+      "extension": "png",
+      "size": 437738,
+      "prettySize": "438 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.696Z",
+      "changeTime": "2020-02-11T16:14:12.262Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art",
+      "base": "ideas.png",
+      "ext": ".png",
+      "name": "ideas",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007485,
+      "blocks": 856,
+      "atimeMs": 1581934097696.4524,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652261.8628,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.696Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.262Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "0f56adbf-11ad-572e-9ab5-a2c5a6069905": {
+      "id": "0f56adbf-11ad-572e-9ab5-a2c5a6069905",
+      "children": [],
+      "parent": "793f1177-1043-51cd-b25c-15aff5078193",
+      "internal": {
+        "contentDigest": "55531a9110c758d00ec76ddc5f5f20ce",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d2879052-0154-5d68-a96d-ab5be0978c33": {
+      "id": "d2879052-0154-5d68-a96d-ab5be0978c33",
+      "children": [],
+      "parent": "b3552c91-b31f-5f34-93bc-6d4f8660a974",
+      "internal": {
+        "contentDigest": "963c089ebba6a1cc2b0d100a1e475b38",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0d656369-065a-5a45-835d-f53d79804560": {
+      "id": "0d656369-065a-5a45-835d-f53d79804560",
+      "children": [
+        "06af9556-feff-50c7-bb3c-2b1d0e3300d3"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "69800324cc38710e26a0af0454f26cf4",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/art/fast.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "art",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art/fast.png",
+      "relativePath": "fast.png",
+      "extension": "png",
+      "size": 355077,
+      "prettySize": "355 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.696Z",
+      "changeTime": "2020-02-11T16:14:12.265Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art",
+      "base": "fast.png",
+      "ext": ".png",
+      "name": "fast",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007489,
+      "blocks": 696,
+      "atimeMs": 1581934097696.4636,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652265.3687,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.696Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.265Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "5b250d6b-832d-5b43-a76b-10fe66a36afd": {
+      "id": "5b250d6b-832d-5b43-a76b-10fe66a36afd",
+      "children": [
+        "e0b6190b-121f-505d-bbd1-f197696726a2"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4e1e22566265ebcbefa4dd58fd16d021",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/art/customers_pot.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "art",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art/customers_pot.png",
+      "relativePath": "customers_pot.png",
+      "extension": "png",
+      "size": 396591,
+      "prettySize": "397 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.696Z",
+      "changeTime": "2020-02-11T16:14:12.263Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art",
+      "base": "customers_pot.png",
+      "ext": ".png",
+      "name": "customers_pot",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007486,
+      "blocks": 776,
+      "atimeMs": 1581934097696.4553,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652262.7913,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.696Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.263Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "06af9556-feff-50c7-bb3c-2b1d0e3300d3": {
+      "id": "06af9556-feff-50c7-bb3c-2b1d0e3300d3",
+      "children": [],
+      "parent": "0d656369-065a-5a45-835d-f53d79804560",
+      "internal": {
+        "contentDigest": "69800324cc38710e26a0af0454f26cf4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e0b6190b-121f-505d-bbd1-f197696726a2": {
+      "id": "e0b6190b-121f-505d-bbd1-f197696726a2",
+      "children": [],
+      "parent": "5b250d6b-832d-5b43-a76b-10fe66a36afd",
+      "internal": {
+        "contentDigest": "4e1e22566265ebcbefa4dd58fd16d021",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ac9d15be-e64a-5995-8e0a-2b3aa491474b": {
+      "id": "ac9d15be-e64a-5995-8e0a-2b3aa491474b",
+      "children": [
+        "7203e29f-30c4-58d1-b61d-a30df436e1a1"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "16c3b105c00b72d98d3503d26a65c7da",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/art/tell_story.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "art",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art/tell_story.png",
+      "relativePath": "tell_story.png",
+      "extension": "png",
+      "size": 455165,
+      "prettySize": "455 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.696Z",
+      "changeTime": "2020-02-11T16:14:12.265Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art",
+      "base": "tell_story.png",
+      "ext": ".png",
+      "name": "tell_story",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007488,
+      "blocks": 896,
+      "atimeMs": 1581934097696.4604,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652264.547,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.696Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.265Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "7203e29f-30c4-58d1-b61d-a30df436e1a1": {
+      "id": "7203e29f-30c4-58d1-b61d-a30df436e1a1",
+      "children": [],
+      "parent": "ac9d15be-e64a-5995-8e0a-2b3aa491474b",
+      "internal": {
+        "contentDigest": "16c3b105c00b72d98d3503d26a65c7da",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5d7b8f43-d289-584c-ac96-574d832999a2": {
+      "id": "5d7b8f43-d289-584c-ac96-574d832999a2",
+      "children": [
+        "9125ed6b-2fd1-5b2b-8ab7-69105c72eab4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "09f3267bac7df28d6d90ea4a647a3d2f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/art/team_work.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "art",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art/team_work.png",
+      "relativePath": "team_work.png",
+      "extension": "png",
+      "size": 586542,
+      "prettySize": "587 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.696Z",
+      "changeTime": "2020-02-11T16:14:12.264Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art",
+      "base": "team_work.png",
+      "ext": ".png",
+      "name": "team_work",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007487,
+      "blocks": 1152,
+      "atimeMs": 1581934097696.458,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652263.5303,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.696Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.264Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "9125ed6b-2fd1-5b2b-8ab7-69105c72eab4": {
+      "id": "9125ed6b-2fd1-5b2b-8ab7-69105c72eab4",
+      "children": [],
+      "parent": "5d7b8f43-d289-584c-ac96-574d832999a2",
+      "internal": {
+        "contentDigest": "09f3267bac7df28d6d90ea4a647a3d2f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d339e6ab-9294-59b2-889a-a4e893c18f0e": {
+      "id": "d339e6ab-9294-59b2-889a-a4e893c18f0e",
+      "children": [
+        "e270d318-0bd0-5127-979e-ce61d644af2e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e205d6c79c2405b8a8dc20d59f922e43",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/art/build.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "art",
+      "absolutePath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art/build.png",
+      "relativePath": "build.png",
+      "extension": "png",
+      "size": 887744,
+      "prettySize": "888 kB",
+      "modifiedTime": "2020-01-27T18:46:24.000Z",
+      "accessTime": "2020-02-17T10:08:17.696Z",
+      "changeTime": "2020-02-11T16:14:12.258Z",
+      "birthTime": "2020-01-27T18:46:24.000Z",
+      "root": "/",
+      "dir": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/images/art",
+      "base": "build.png",
+      "ext": ".png",
+      "name": "build",
+      "relativeDirectory": "",
+      "dev": 16777223,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12903007483,
+      "blocks": 1736,
+      "atimeMs": 1581934097696.4468,
+      "mtimeMs": 1580150784000,
+      "ctimeMs": 1581437652257.8076,
+      "birthtimeMs": 1580150784000,
+      "atime": "2020-02-17T10:08:17.696Z",
+      "mtime": "2020-01-27T18:46:24.000Z",
+      "ctime": "2020-02-11T16:14:12.258Z",
+      "birthtime": "2020-01-27T18:46:24.000Z"
+    },
+    "e270d318-0bd0-5127-979e-ce61d644af2e": {
+      "id": "e270d318-0bd0-5127-979e-ce61d644af2e",
+      "children": [],
+      "parent": "d339e6ab-9294-59b2-889a-a4e893c18f0e",
+      "internal": {
+        "contentDigest": "e205d6c79c2405b8a8dc20d59f922e43",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+      "pluginCreatorId": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8089e9dedee248c1a16039fa518ea3bb",
+        "description": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+      "pluginCreatorId": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "851de0a17869f35d8cd5e6685715843d",
+        "description": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+      "pluginCreatorId": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "69ebb805dc98ad96fbf54eec79b1963a",
+        "description": "d1312c94-d2a4-5fbc-9bd7-6df84d3180ec",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "93b789ca12e39762e15dd2539a2b71c9",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "bcd210ce9fea3749f1c1d49ae4aa0e3a"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "0d656369-065a-5a45-835d-f53d79804560": [
+        "sq--src-components-sections-about-js"
+      ],
+      "793f1177-1043-51cd-b25c-15aff5078193": [
+        "sq--src-components-sections-about-js"
+      ],
+      "b3552c91-b31f-5f34-93bc-6d4f8660a974": [
+        "sq--src-components-sections-about-js"
+      ],
+      "ac9d15be-e64a-5995-8e0a-2b3aa491474b": [
+        "sq--src-components-sections-brands-js"
+      ],
+      "5b250d6b-832d-5b43-a76b-10fe66a36afd": [
+        "sq--src-components-sections-footer-js"
+      ],
+      "5d7b8f43-d289-584c-ac96-574d832999a2": [
+        "sq--src-components-sections-team-js"
+      ],
+      "191ddff0-d4d2-5457-b480-117daed7d0d3": [
+        "sq--src-components-sections-team-js"
+      ],
+      "d02b2e99-09d7-5349-a32a-56e19c1e43c8": [
+        "sq--src-components-sections-team-js"
+      ],
+      "1670c0cf-9316-58cc-a2c0-378a3ab1ef81": [
+        "sq--src-components-sections-team-js"
+      ],
+      "72fec632-96ee-58f5-9b36-96969fadbabd": [
+        "sq--src-components-sections-team-js"
+      ],
+      "eef04f4e-eef7-53a5-8a85-ed36a1141a80": [
+        "sq--src-components-sections-team-js"
+      ],
+      "c34f7338-4f7f-56f2-8e07-fe54ac6e296d": [
+        "sq--src-components-sections-team-js"
+      ],
+      "06af9556-feff-50c7-bb3c-2b1d0e3300d3": [
+        "sq--src-components-sections-about-js"
+      ],
+      "0f56adbf-11ad-572e-9ab5-a2c5a6069905": [
+        "sq--src-components-sections-about-js"
+      ],
+      "d2879052-0154-5d68-a96d-ab5be0978c33": [
+        "sq--src-components-sections-about-js"
+      ],
+      "7203e29f-30c4-58d1-b61d-a30df436e1a1": [
+        "sq--src-components-sections-brands-js"
+      ],
+      "e0b6190b-121f-505d-bbd1-f197696726a2": [
+        "sq--src-components-sections-footer-js"
+      ],
+      "9125ed6b-2fd1-5b2b-8ab7-69105c72eab4": [
+        "sq--src-components-sections-team-js"
+      ],
+      "acdf2100-51c5-53d8-8061-983b5bdd7c1e": [
+        "sq--src-components-sections-team-js"
+      ],
+      "d099f6ed-1e15-5322-958a-b1a7eb0d1f8b": [
+        "sq--src-components-sections-team-js"
+      ],
+      "5d7897db-ea4a-5ad2-8298-38b96d4e64a3": [
+        "sq--src-components-sections-team-js"
+      ],
+      "484b7d7b-20b6-5b7e-a430-516e29d6b548": [
+        "sq--src-components-sections-team-js"
+      ],
+      "d399c058-c73d-5f81-8e3b-bc2fbfb97d75": [
+        "sq--src-components-sections-team-js"
+      ],
+      "cfb8e4da-af7d-556a-a977-989096396033": [
+        "sq--src-components-sections-team-js"
+      ],
+      "d339e6ab-9294-59b2-889a-a4e893c18f0e": [
+        "sq--src-components-sections-header-js"
+      ],
+      "e270d318-0bd0-5127-979e-ce61d644af2e": [
+        "sq--src-components-sections-header-js"
+      ]
+    },
+    "connections": {
+      "File": [
+        "sq--src-components-sections-team-js"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-sections-brands-js": 375039566,
+    "sq--src-components-sections-about-js": 1098668974,
+    "sq--src-components-sections-footer-js": 4249694529,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-sections-header-js": 2932384761,
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-sections-team-js": 689353836
+  },
+  "components": {
+    "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/404.js"
+    },
+    "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/index.js"
+    },
+    "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/pages/page-2.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-sections-about-js": {
+      "name": "usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsAboutJs1098668974",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/components/sections/About.js",
+      "id": "sq--src-components-sections-about-js",
+      "jsonName": "sq--src-components-sections-about-js",
+      "query": "query usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsAboutJs1098668974 {\n  art_fast: file(sourceInstanceName: {eq: \"art\"}, name: {eq: \"fast\"}) {\n    childImageSharp {\n      fluid(maxWidth: 760) {\n        ...GatsbyImageSharpFluid_withWebp_tracedSVG\n      }\n    }\n  }\n  art_learn: file(sourceInstanceName: {eq: \"art\"}, name: {eq: \"learn_yourself\"}) {\n    childImageSharp {\n      fluid(maxWidth: 760) {\n        ...GatsbyImageSharpFluid_withWebp_tracedSVG\n      }\n    }\n  }\n  art_ideas: file(sourceInstanceName: {eq: \"art\"}, name: {eq: \"ideas\"}) {\n    childImageSharp {\n      fluid(maxWidth: 760) {\n        ...GatsbyImageSharpFluid_withWebp_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_withWebp_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n",
+      "hash": 1098668974
+    },
+    "sq--src-components-sections-brands-js": {
+      "name": "usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsBrandsJs375039566",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/components/sections/Brands.js",
+      "id": "sq--src-components-sections-brands-js",
+      "jsonName": "sq--src-components-sections-brands-js",
+      "query": "query usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsBrandsJs375039566 {\n  art_story: file(sourceInstanceName: {eq: \"art\"}, name: {eq: \"tell_story\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1200) {\n        ...GatsbyImageSharpFluid_withWebp_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_withWebp_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n",
+      "hash": 375039566
+    },
+    "sq--src-components-sections-footer-js": {
+      "name": "usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsFooterJs4249694529",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/components/sections/Footer.js",
+      "id": "sq--src-components-sections-footer-js",
+      "jsonName": "sq--src-components-sections-footer-js",
+      "query": "query usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsFooterJs4249694529 {\n  art_pot: file(sourceInstanceName: {eq: \"art\"}, name: {eq: \"customers_pot\"}) {\n    childImageSharp {\n      fluid(maxWidth: 960) {\n        ...GatsbyImageSharpFluid_withWebp_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_withWebp_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n",
+      "hash": 4249694529
+    },
+    "sq--src-components-sections-team-js": {
+      "name": "usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsTeamJs689353836",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/components/sections/Team.js",
+      "id": "sq--src-components-sections-team-js",
+      "jsonName": "sq--src-components-sections-team-js",
+      "query": "query usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsTeamJs689353836 {\n  allFile(filter: {sourceInstanceName: {eq: \"team\"}}) {\n    edges {\n      node {\n        relativePath\n        childImageSharp {\n          fluid(maxWidth: 400, maxHeight: 400) {\n            ...GatsbyImageSharpFluid\n          }\n        }\n      }\n    }\n  }\n  art_team: file(sourceInstanceName: {eq: \"art\"}, name: {eq: \"team_work\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1600) {\n        ...GatsbyImageSharpFluid_withWebp_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n\nfragment GatsbyImageSharpFluid_withWebp_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n",
+      "hash": 689353836
+    },
+    "sq--src-components-sections-header-js": {
+      "name": "usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsHeaderJs2932384761",
+      "componentPath": "/Users/Veronica/Google Drive/3_dev/linkjournal/src/components/sections/Header.js",
+      "id": "sq--src-components-sections-header-js",
+      "jsonName": "sq--src-components-sections-header-js",
+      "query": "query usersVeronicaGoogleDrive3DevLinkjournalSrcComponentsSectionsHeaderJs2932384761 {\n  art_build: file(sourceInstanceName: {eq: \"art\"}, name: {eq: \"build\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1400) {\n        ...GatsbyImageSharpFluid_withWebp_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_withWebp_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n",
+      "hash": 2932384761
+    }
+  }
+}
