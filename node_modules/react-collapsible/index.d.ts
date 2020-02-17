@@ -1,7 +1,7 @@
 declare class Collapsible extends React.Component<CollapsibleProps> {}
 declare namespace Collapsible {}
 
-interface CollapsibleProps extends React.HTMLProps<Collapsible> {
+export interface CollapsibleProps extends React.HTMLProps<Collapsible> {
   transitionTime?: number
   transitionCloseTime?: number | null
   triggerTagName?: string
@@ -35,6 +35,7 @@ interface CollapsibleProps extends React.HTMLProps<Collapsible> {
   triggerSibling?: React.ReactElement<any>
   className?: string
   tabIndex?: number
+  contentContainerTagName?: string
 }
 
 declare module 'react-collapsible' {

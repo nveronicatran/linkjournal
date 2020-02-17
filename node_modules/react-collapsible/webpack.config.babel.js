@@ -1,6 +1,6 @@
 import path from 'path';
 import autoprefixer from 'autoprefixer';
-import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
 const postcss = {
   loader: 'postcss-loader',
@@ -12,7 +12,17 @@ const postcss = {
 
 const styles = {
   test: /\.(scss)$/,
-  use: ExtractTextPlugin.extract(['css-loader?sourceMap', postcss, 'sass-loader?sourceMap'])
+  use: [
+    {
+      loader: MiniCssExtractPlugin.loader,
+      options: {
+        hmr: process.env.NODE_ENV === 'development',
+      },
+    },
+    'css-loader?sourceMap',
+    postcss,
+    'sass-loader?sourceMap'
+  ]
 };
 
 module.exports = {
@@ -34,7 +44,9 @@ module.exports = {
     styles],
   },
   plugins: [
-    new ExtractTextPlugin('styles.css'),
+    new MiniCssExtractPlugin({
+      filename: 'styles.css'
+    }),
   ],
   devtool: 'inline-source-map',
   devServer: {

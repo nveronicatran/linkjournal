@@ -64,6 +64,9 @@ With a little CSS becomes
 ### **contentContainerTagName** | *string* | default: `div`
 Tag Name for the Collapsible Root Element.
 
+### **containerElementProps** | *object*
+Pass props (or attributes) to the top div element. Useful for inserting `id`.
+
 ### **trigger** | *string* or *React Element* | **required**
 The text or element to appear in the trigger link.
 
