@@ -5,7 +5,7 @@ const SEO_DATA = {
   description: 'Link Journal',
   title: 'LINK',
   url: '',
-  author: 'ajayns',
+  author: 'LINK Journal',
   keywords: ['link', 'journal', 'design'],
   img: '',
   twitterId: '@linkjournal',

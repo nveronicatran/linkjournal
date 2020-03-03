@@ -38,8 +38,7 @@ const Team = () => (
     render={data => (
       <Section id="team" accent="secondary">
         <Container style={{ position: 'relative' }}>
-          <h1>About Us</h1>
-          <h2>LINK is a creative collaboration between
+          <h2>The project is a creative collaboration between
 designers Veronica Tran and Julia Bertolaso,
 who met during their post-graduate studies in
 ‘Design for Emergent Futures’. Their combined
