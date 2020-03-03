@@ -31,7 +31,13 @@ const Header = () => (
             What is LINK?
             </h1>
               <h2>
-                Born from a compulsive curiosity in hybrid environments, [LINK](Journal) is an experiment dedicated to exploring in-between spaces
+                Born from a compulsive curiosity in hybrid environments, [LINK](Journal) is an experiment dedicated to exploring in-between spaces. It seeks to connect opposing ends of
+different spectrums of thought within
+visible and invisible environments, in order
+to form a fertile ground for discussion in
+order to communicate different ways of
+thinking, seeing and doing. It will address a
+variety of topics.
               </h2>
 
             </Text>

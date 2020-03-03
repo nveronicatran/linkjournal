@@ -5,25 +5,7 @@ import Img from 'gatsby-image';
 
 import { Section, Container } from '@components/global';
 
-const TEAM = [
-  {
-    name: 'Julia Bertolaso',
-    image: 'josh.jpg',
-    role: 'Editor',
-  },
-  {
-    name: 'Veronica Tran',
-    image: 'lisa.jpg',
-    role: 'Editor',
-  },
 
-    {
-    name: 'LINK Journal',
-    image: 'lisa.jpg',
-    role: '@linkjournal',
-  },
- 
-];
 
 const Team = () => (
   <StaticQuery
@@ -66,27 +48,7 @@ started many conversations lead by thoughts,
 reflections and countless coffees. Those
 exchanges led them both to create and initiate
 this project to produce LINK Journal.</h2>
-          <TeamGrid>
-            {TEAM.map(({ name, image, role }) => {
-              const img = data.allFile.edges.find(
-                ({ node }) => node.relativePath === image
-              ).node;
-
-              return (
-                <div key={name}>
-                  <Img fluid={img.childImageSharp.fluid} alt={name} />
-                  <Title>{name}</Title>
-                  <Subtitle>{role}</Subtitle>
-                </div>
-              );
-            })}
-          </TeamGrid>
-          <Art>
-            <Img fluid={data.art_team.childImageSharp.fluid} />
-          </Art>
-          <ArtMobile>
-            <Img fluid={data.art_team.childImageSharp.fluid} />
-          </ArtMobile>
+          
         </Container>
       </Section>
     )}

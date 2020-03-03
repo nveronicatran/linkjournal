@@ -48,13 +48,7 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>It seeks to connect opposing ends of
-different spectrums of thought within
-visible and invisible environments, in order
-to form a fertile ground for discussion in
-order to communicate different ways of
-thinking, seeing and doing. It will address a
-variety of topics.</h2>
+              <h2></h2>
               <p>
               </p>
             </div>
