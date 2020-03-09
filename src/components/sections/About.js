@@ -71,14 +71,7 @@ spaces in-between.
           <Grid>
             <div>
               <p>
-These spaces refer to the points of tension
-constantly forming to give appearance
-on topics that are core to conversations
-around cities, people, design, and
-preferable futures. Within this complex
-mesh of peripheral knowledge, a link forms
-and rapidly transforms knowledge in ways
-that one would not usually see.
+ LINK is a publication that will be launched in late 2020, collaborating with different designers, researchers, artists, and photographers who explore such entanglements. The LINK team lives in between Melbourne, London, and Barcelona with the hopes of bridging the creative communities in these cities.
               </p>
             </div>
             <Art>
